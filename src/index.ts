@@ -10,7 +10,7 @@ import {
 
 const server = new Server(
   {
-    name: "zcaceres/fetch",
+    name: "mcp-boilerplace",
     version: "0.1.0",
   },
   {
