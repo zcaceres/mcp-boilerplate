@@ -38,3 +38,20 @@ This project provides a boilerplate for creating a Model Context Protocol (MCP) 
 
 2. Define your tools in the `ListToolsRequestSchema` handler
 3. Implement your tool logic in the `CallToolRequestSchema` handler
+
+### Usage with Desktop App
+
+To integrate this server with a desktop app, add the following to your app's server configuration:
+
+```json
+{
+  "mcpServers": {
+    "your-mcp-server-name-here": {
+      "command": "node",
+      "args": [
+        "{ABSOLUTE PATH TO FILE HERE}/dist/index.js"
+      ]
+    }
+  }
+}
+```
