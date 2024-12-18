@@ -65,6 +65,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       isError: false,
     };
   }
+
   throw new Error("Tool not found");
 });
 
