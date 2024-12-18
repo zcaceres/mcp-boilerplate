@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "MCP Boilerplate Server",
   "license": "MIT",
-  "author": "zcaceres (@zachcaceres zach.dev)",
-  "homepage": "https://modelcontextprotocol.io",
+  "author": "@zcaceres (@zachcaceres zach.dev)",
+  "homepage": "https://github.com/zcaceres/mcp-boilerplate",
   "bugs": "https://github.com/zcaceres/mcp-boilerplate/issues",
   "type": "module",
   "bin": {
